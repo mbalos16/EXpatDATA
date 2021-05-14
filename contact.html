@@ -181,133 +181,121 @@
         </div>
 
         <!-- Datos contacto -->
-        <div class="col-lg-3 pt-5 text-small">
-            <a class="navbar-brand px-4 col-lg-9" href="#"><img src="img/EXpatDATA.png" width="80"
+        <div class="col-lg-3 pt-5">
+            <a class="navbar-brand col-lg-9" href="#"><img src="img/EXpatDATA.png" width="120"
                     alt="Logo with the text EXpatData, helping expats to integrate, writen in black and red."></a>
             <br>
             <br>
-            <div class="text-small">Dirección: 27 Cowper Road</div>
-            <div>Email: contact@expatdata.com</div>
+            <div class="border-top pt-2 ">Dirección: 27 Cowper Road</div>
             <div>Telefono: 00407899866210</div>
+            <div>Email: contact@expatdata.com</div>
+
 
         </div>
 
         <!-- Formulario -->
-        <div class="col-lg-6 px-4">
+        <div class="col-lg-6 px-4 sm-pt-4">
             <div class="row g-3">
                 <div class="col-sm-6">
-                    <label for="firstName" class="form-label">First name</label>
+                    <label for="firstName" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
                     <div class="invalid-feedback">
-                        Valid first name is required.
+                        Se requiere un nombre valido.
                     </div>
                 </div>
 
                 <div class="col-sm-6">
-                    <label for="lastName" class="form-label">Last name</label>
+                    <label for="lastName" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
                     <div class="invalid-feedback">
-                        Valid last name is required.
+                        Se requiere un apellido valido.
                     </div>
                 </div>
 
-                <div class="col-12">
-                    <label for="username" class="form-label">Username</label>
-                    <div class="input-group has-validation">
-                        <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                        <div class="invalid-feedback">
-                            Your username is required.
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-12">
-                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
                     <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
+                        Por favor introduce una dirección de email valida.
                     </div>
                 </div>
 
                 <div class="col-12">
-                    <label for="address" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <label for="address" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="address" placeholder="Calle/Número/Código postal"
+                        required="">
                     <div class="invalid-feedback">
-                        Please enter your shipping address.
+                        Por favor introduce su dirección de email.
                     </div>
                 </div>
 
                 <div class="col-12">
-                    <label for="address2" class="form-label">Address 2 <span
-                            class="text-muted">(Optional)</span></label>
-                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    <label for="address2" class="form-label">Telefono<span class="text-muted">*</span></label>
+                    <input type="text" class="form-control" id="address2">
                 </div>
 
-                <div class="col-md-5">
-                    <label for="country" class="form-label">Country</label>
+                <div class="col-sm-6">
+                    <label for="country" class="form-label">Ciudad Actual</label>
                     <select class="form-select" id="country" required="">
-                        <option value="">Choose...</option>
-                        <option>United States</option>
+                        <option value="">Elige...</option>
+                        <option>España</option>
+                        <option>Europa</option>
+                        <option>Fuera de la U.E.</option>
                     </select>
                     <div class="invalid-feedback">
-                        Please select a valid country.
+                        Por favor elige una de las opciones.
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <label for="state" class="form-label">State</label>
-                    <select class="form-select" id="state" required="">
-                        <option value="">Choose...</option>
-                        <option>California</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please provide a valid state.
-                    </div>
+                <div class="col-sm-6">
+                    <label for="address2" class="form-label">Nacionalidad</label>
+                    <input type="text" class="form-control" id="address2">
                 </div>
 
-                <div class="col-md-3">
-                    <label for="zip" class="form-label">Zip</label>
+                <div class="col-sm-6">
+                    <label for="address2" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="address2">
+                </div>
+
+                <div class="col-md-12">
+                    <label for="zip" class="form-label">Mensaje</label>
                     <input type="text" class="form-control" id="zip" placeholder="" required="">
                     <div class="invalid-feedback">
-                        Zip code required.
+                        Se requiere un mensaje.
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+</body>
 
-
-
-
-        <body>
-
-            <!-- Footer -->
-            <footer class="pt-4 my-md-1 pt-md-3 sm-12 bg-light">
-                <div class="row">
-                    <div class="col-6 text-center col-md">
-                        <img class="mx-4" src="img/EXpatDATA.png" alt="" width="50">
-                        <small class="d-block mb-3 mx-4 text-muted"> © Todos los <br> derechos reservados </small>
-                    </div>
-                    <div class="col-6 col-md">
-                        <ul class="list-unstyled text-center text-small">
-                            <li><a class="text-muted" href="#">Sobre Nosotros</a></li>
-                            <li><a class="text-muted" href="#">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md">
-                        <ul class="list-unstyled text-center text-small">
-                            <li><a class="text-muted" href="#">Politica de privacidad</a></li>
-                            <li><a class="text-muted" href="#">Terminos y Condiciones</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md">
-                        <ul class="list-unstyled text-center text-small">
-                            <li><a class="text-muted" href="#">Mapa de la Web</a></li>
-                            <li><a class="text-muted" href="#">Voluntariado</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
+<!-- Footer -->
+<footer class="pt-4 my-md-1 pt-md-3 sm-12 bg-light">
+    <div class="row">
+        <div class="col-6 text-center col-md">
+            <img class="mx-4" src="img/EXpatDATA.png" alt="" width="50">
+            <small class="d-block mb-3 mx-4 text-muted"> © Todos los <br> derechos reservados </small>
+        </div>
+        <div class="col-6 col-md">
+            <ul class="list-unstyled text-center text-small">
+                <li><a class="text-muted" href="#">Sobre Nosotros</a></li>
+                <li><a class="text-muted" href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <ul class="list-unstyled text-center text-small">
+                <li><a class="text-muted" href="#">Politica de privacidad</a></li>
+                <li><a class="text-muted" href="#">Terminos y Condiciones</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <ul class="list-unstyled text-center text-small">
+                <li><a class="text-muted" href="#">Mapa de la Web</a></li>
+                <li><a class="text-muted" href="#">Voluntariado</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
 </html>
