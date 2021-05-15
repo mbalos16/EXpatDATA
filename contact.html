@@ -35,8 +35,8 @@
         </div>
 
         <!-- Menu izquierda -->
-        <div class="col-lg-3">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="col-lg-3 bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light ">
 
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -180,21 +180,7 @@
             </nav>
         </div>
 
-        <!-- Datos contacto -->
-        <div class="col-lg-3 pt-5">
-            <a class="navbar-brand col-lg-9" href="#"><img src="img/EXpatDATA.png" width="120"
-                    alt="Logo with the text EXpatData, helping expats to integrate, writen in black and red."></a>
-            <br>
-            <br>
-            <div class=" pt-2 ">Dirección: 27 Cowper Road</div>
-            <div>Telefono: 00407899866210</div>
-            <div>Email: contact@expatdata.com</div>
-
-
-        </div>
-
         <!-- Formulario -->
-
         <div class="col-lg-6 px-4 sm-pt-4 pb-5">
             <div class=" text-left col-sm-6 pt-5 pb-3">
                 <h2 class="display-5-lg">¡Escribenos!</h2>
@@ -202,7 +188,7 @@
             <div class="row g-3">
                 <div class="col-sm-6">
                     <label for="firstName" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <input type="text" class="form-control" placeholder="" value="" required="">
                     <div class="invalid-feedback">
                         Se requiere un nombre valido.
                     </div>
@@ -210,7 +196,7 @@
 
                 <div class="col-sm-6">
                     <label for="lastName" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <input type="text" class="form-control" placeholder="" value="" required="">
                     <div class="invalid-feedback">
                         Se requiere un apellido valido.
                     </div>
@@ -219,7 +205,7 @@
 
                 <div class="col-12">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                    <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
                     <div class="invalid-feedback">
                         Por favor introduce una dirección de email valida.
                     </div>
@@ -227,8 +213,7 @@
 
                 <div class="col-12">
                     <label for="address" class="form-label">Dirección</label>
-                    <input type="text" class="form-control" id="address" placeholder="Calle/Número/Código postal"
-                        required="">
+                    <input type="text" class="form-control" placeholder="Calle/Número/Código postal" required="">
                     <div class="invalid-feedback">
                         Por favor introduce su dirección de email.
                     </div>
@@ -236,12 +221,12 @@
 
                 <div class="col-12">
                     <label for="address2" class="form-label">Telefono<span class="text-muted">*</span></label>
-                    <input type="text" class="form-control" id="address2">
+                    <input type="text" class="form-control">
                 </div>
 
                 <div class="col-sm-6">
                     <label for="country" class="form-label">Ciudad Actual</label>
-                    <select class="form-select" id="country" required="">
+                    <select class="form-select" required="">
                         <option value="">Elige...</option>
                         <option>España</option>
                         <option>Europa</option>
@@ -253,25 +238,36 @@
                 </div>
                 <div class="col-sm-6">
                     <label for="address2" class="form-label">Nacionalidad</label>
-                    <input type="text" class="form-control" id="address2">
+                    <input type="text" class="form-control">
                 </div>
 
                 <div class="col-sm-6">
                     <label for="address2" class="form-label">Asunto</label>
-                    <input type="text" class="form-control" id="address2">
+                    <input type="text" class="form-control">
                 </div>
 
                 <div class="col-md-12">
                     <label for="zip" class="form-label">Mensaje</label>
-                    <input type="text" class="form-control" id="zip" placeholder="" required="">
+                    <input type="text" class="form-control" placeholder="" required="">
                     <div class="invalid-feedback">
                         Se requiere un mensaje.
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+
+        <!-- Datos contacto -->
+        <div class="col-lg-3 pt-5 bg-light">
+            <a class="navbar-brand col-lg-9" href="#"><img src="img/EXpatDATA.png" width="120"
+                    alt="Logo with the text EXpatData, helping expats to integrate, writen in black and red."></a>
+            <br>
+            <br>
+            <div class=" pt-2 ">Dirección: 27 Cowper Road</div>
+            <div>Telefono: 00407899866210</div>
+            <div>Email: contact@expatdata.com</div>
+        </div>
+    </div>
 </body>
 
 <!-- Footer -->
