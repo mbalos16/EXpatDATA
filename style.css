@@ -1,0 +1,13 @@
+/* Remove links underline */
+a.no-underline {
+    text-decoration: none;
+  }
+
+.linkColor{
+  color: #C93C20;
+}
+.nav{
+  border-bottom: solid;
+  border-color: #C93C20;
+}
+
