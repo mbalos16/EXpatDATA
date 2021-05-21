@@ -6,6 +6,7 @@ a.no-underline {
 .redColor{
   color: #C93C20;
 }
+
 .nav{
   border-bottom: solid;
   border-color: #C93C20;
@@ -13,4 +14,19 @@ a.no-underline {
 
 .creamBackground{
   background-color: #ECF0E5;
+}
+
+/* Background for dropright menus */
+nav ul.creamBackground{
+  background-color: #ECF0E5;
+}
+
+nav ul.creamBackground :hover{
+  background-color: #C93C20;
+  color:white;
+}
+
+/* Remove padding from left menu */
+nav div.container-fluid{
+  padding-left: 0;
 }
