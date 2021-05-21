@@ -3,7 +3,7 @@ a.no-underline {
     text-decoration: none;
   }
 
-.linkColor{
+.redColor{
   color: #C93C20;
 }
 .nav{
@@ -11,3 +11,6 @@ a.no-underline {
   border-color: #C93C20;
 }
 
+.creamBackground{
+  background-color: #ECF0E5;
+}
