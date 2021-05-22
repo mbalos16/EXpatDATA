@@ -39,3 +39,7 @@ a.no-underline {
 nav div.container-fluid{
   padding-left: 0;
 }
+
+.container{
+  background-color: #ECF0E5;
+}
