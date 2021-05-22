@@ -17,11 +17,20 @@ a.no-underline {
 }
 
 /* Background for dropright menus */
-nav ul.creamBackground{
+
+#navbarNavDropdown>ul>li>ul{
   background-color: #ECF0E5;
+
 }
 
-nav ul.creamBackground :hover{
+/* Hover main list */
+#navbarNavDropdown>ul>li>a:hover{
+  background-color: #C93C20;
+  color:white;
+}
+
+/* Hover sublists */
+#navbarNavDropdown>ul>li>ul>li>a:hover{
   background-color: #C93C20;
   color:white;
 }
