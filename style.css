@@ -17,10 +17,15 @@ a.no-underline {
 }
 
 /* Background for dropright menus */
-
 #navbarNavDropdown>ul>li>ul{
   background-color: #ECF0E5;
 
+}
+
+/* Main List */
+#navbarNavDropdown>ul>li>a{
+  font-weight: bold;
+  color: #262626;
 }
 
 /* Hover main list */
@@ -40,6 +45,15 @@ nav div.container-fluid{
   padding-left: 0;
 }
 
-.container{
-  background-color: #ECF0E5;
+/* Align Breadcrumb center */
+div.container>div.row:first-child>div{
+  vertical-align: bottom;
+  margin: auto;
+}
+
+/* Remove breadcrumb mergin */
+ol.breadcrumb{
+  margin:0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
