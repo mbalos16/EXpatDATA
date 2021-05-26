@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Librar for Social Media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Voluntariado</title>
+    <link rel="icon" href="img/favicon.png" type="image/icon type">
+</head>
+
+<body>
+    <!-- Barra Arriba -->
+    <nav class="navbar navbar-lg creamBackground">
+        <div class="container">
+            <div class="col-4 py-2">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="140"
+                        alt="Logo with the text EXpatData, helping expats to integrate, writen in black and red."></a>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-6 text-end">
+                <a target="_blank" href="https://www.facebook.com/magdalena.m.balos"
+                    class="fa fa-facebook no-underline redColor px-2"></a>
+                <a target="_blank" href="https://twitter.com/BalosMaria"
+                    class="fa fa-twitter no-underline redColor px-2"></a>
+                <a target="_blank" href="https://www.instagram.com/mbalos.design/"
+                    class="fa fa-instagram no-underline redColor px-2"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-magdalena-balos-2a326ba2/"
+                    class="fa fa-linkedin no-underline redColor px-2"></a>
+                <a target="_blank" href="https://chatwith.io/s/expatdata"
+                    class=" fa fa-whatsapp no-underline redColor px-2"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <!-- Migas de pan -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="no-underline link-dark" href="index.html">Inicio</a>
+                        </li>
+                        <li class="breadcrumb-item active no-underline" aria-current="page">Voluntariado</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="col-5 text-end">
+                <a class="mx-4 no-underline redColor">INGLÉS</a>
+                <a class="no-underline redColor">ESPAÑOL</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Menu izquierda -->
+            <div class="col-lg-2 creamBackground">
+
+            </div>
+
+            <!-- Centro -->
+            <div class="col-lg-8">
+                <div class="alert alert-success collapse" role="alert">
+
+                    <h4 class="alert-heading">Mensaje enviado con éxito</h4>
+                    <p>Tu mensaje se ha enviado con éxito, muchas gracias por ponerte en contacto con el equipo de
+                        EXPATdata.</p>
+                    <p class="mb-0">Te responederemos con la mayor brevedad posible por email.
+                    </p>
+                </div>
+
+                <div class=" text-left col-sm-6 pt-4 pb-3">
+                    <h2 class="display-5-lg">¡Escribenos!</h2>
+                </div>
+                <form class="needs-validation row g-3 pb-3" novalidate>
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label" required>Nombre<span
+                                class="text-muted">*</span></label>
+                        <input type="text" class="form-control" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere un nombre valido.
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label" required>Apellido<span
+                                class="text-muted">*</span></label>
+                        <input type="text" class="form-control" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere un apellido valido.
+                        </div>
+                    </div>
+
+
+                    <div class="col-12">
+                        <label for="email" class="form-label" required>Email<span class="text-muted">*</span></label>
+                        <input type="email" class="form-control" placeholder="nombre@ejemplo.com" required="">
+                        <div class="invalid-feedback">
+                            Por favor introduzca una dirección de email valida.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address" class="form-label" required>Dirección<span
+                                class="text-muted">*</span></label>
+                        <input type="text" class="form-control" placeholder="calle / número / código postal"
+                            required="">
+                        <div class="invalid-feedback">
+                            Por favor introduzca su dirección de postal.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address2" class="form-label" required>Telefono</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="country" class="form-label" required>Ciudad Actual<span
+                                class="text-muted">*</span></label>
+                        <select class="form-select" required="">
+                            <option value="">Elige...</option>
+                            <option>España</option>
+                            <option>Europa</option>
+                            <option>Fuera de la U.E.</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por favor elige una de las opciones.
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="address2" class="form-label" required>Nacionalidad</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-sm-12">
+                        <label for="subject" class="form-label" required>Asunto</label>
+                        <input type="text" class="form-control" required="">
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="zip" class="form-label" required>Mensaje<span class="text-muted">*</span></label>
+                        <textarea type="text" class="form-control" placeholder="" required="" rows="3"></textarea>
+                        <div class="invalid-feedback">
+                            Se requiere un mensaje.
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-right">
+                        <button class="btn btn-success" type="submit">Enviar</button>
+                    </div>
+
+
+                </form>
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                        form.classList.add('was-validated');
+                                    }
+                                    if (form.checkValidity() === true) {
+                                        event.preventDefault();
+                                        $('.alert').show()
+                                    }
+
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+
+            </div>
+
+            <!-- Páginas web -->
+            <div class="col-lg-2 pt-3 creamBackground">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer class="col my-1 sm-12 creamBackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 text-center col-md mt-3">
+                <img class="mx-4" href="index.html" src="img/logo.png" alt="" width="70">
+                <small class="d-block mb-3 mx-4 redColor"> © Todos los <br> derechos reservados </small>
+            </div>
+            <div class="col-6 col-md mt-3">
+                <ul class="list-unstyled text-center text-small">
+                    <li><a class="no-underline redColor" href="#">Sobre Nosotros</a></li>
+                    <li><a class="no-underline redColor" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md mt-3">
+                <ul class="list-unstyled text-center text-small">
+                    <li><a class="no-underline redColor" href="#">Politica de privacidad</a></li>
+                    <li><a class="no-underline redColor" href="#">Terminos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md mt-3">
+                <ul class="list-unstyled text-center text-small">
+                    <li><a class="no-underline redColor" href="#">Mapa de la Web</a></li>
+                    <li><a class="no-underline redColor" href="#">Voluntariado</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
